@@ -1,0 +1,9 @@
+@use "variable";
+
+body{
+  background: variable.$bg;
+  font-size: 5rem;
+  color: var(--text);
+  margin-left: 5rem ;
+  text-transform: uppercase;
+}
